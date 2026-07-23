@@ -8,17 +8,54 @@
 </head>
 <body>
     <header class="navbar">
-        <div class="logo">
-            <span class="logo bracket"></span>Cahaya<span class="logo-bracket"></span>
-        </div>
+        <div class="logo">Cahaya</div>
         <nav>
             <ul class="nav-list">
-                <li><a href="#">tentang</a></li>
-                <li><a href="#">skill</a></li>
-                <li><a href="#">project</a></li>
+                <li><a href="#tentang">tentang</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#project">project</a></li>
             </ul>
         </nav>
         <button id="modeToggle" aria-label="Ganti tema">Tema</button>
     </header>
+
+    <section id="tentang" class="hero">
+        <div class="hero-image">
+            <img src="cahaya.jpeg" alt="Foto Cahaya" />
+        </div>
+
+        <div class="hero-text">
+            <p class="eyebrow">Front-end developer in training</p>
+            <h1>Halo, saya <span class="highlight">Cahaya</span></h1>
+            <p class="subtittle">
+                Siswa SMK yang lagi belajar merakit halaman web dari nol, mulai dari HTML, CSS hingga JS.
+            </p>
+            <a href="#project" class="btn-primary">Lihat Project</a>
+        </div>
+    </section>
+
+    <section id="skill" class="skill-section">
+        <p class="eyebrow">Skill</p>
+        <h2>Tools yang saya lagi pelajari</h2>
+        <div class="skill-grid">
+            <div class="skill-card">
+                <span class="skill-tag">tag</span>
+                <h3>HTML</h3>
+                <p>Menyusun Struktur dan Konten Halaman</p>
+            </div>
+            <div class="skill-card">
+                <span class="skill-tag">style</span>
+                <h3>CSS</h3>
+                <p>Mendesain Tampilan Agar Enak Dilihat</p>
+            </div>
+            <div class="skill-card">
+                <span class="skill-tag">script</span>
+                <h3>JavaScript</h3>
+                <p>Bikin Halaman Bisa Merespon Aksi User</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
